@@ -17,4 +17,17 @@
 <br><br><br>
 
 ## سوال دوم
+برای این قسمت، برنامه‌ای نوشتیم که دو کار را انجام میدهد. محاسبه‌ی فاکتوریل عدد ورودی n و محاسبه‌ی عدد فیبوناچی m ام. محاسبه‌ی فاکتوریل زمان خاصی نمیبرد ولی محاسبه‌ی فیبوناچی به دلیل الگوریتم غیربهینه‌ای که استفاده شده است، منابع بیشتری استفاده میکند. درادامه تصاویری از کد مربوط به این قسمت و نمونه اجرای آن به همراه گزارش profile کردن برنامه را مشاهده میکنید:
+![image](https://github.com/matinmoradi80/SoftwareEngineering_Lab5/assets/62210384/d2107b3d-8161-4f07-9518-d414ddc2530b)
+![image](https://github.com/matinmoradi80/SoftwareEngineering_Lab5/assets/62210384/319328be-510b-4204-84d5-eca2f36d579b)
+![image](https://github.com/matinmoradi80/SoftwareEngineering_Lab5/assets/62210384/2be1e135-9c76-48ed-adbd-35d3ad58c07e)
+![image](https://github.com/matinmoradi80/SoftwareEngineering_Lab5/assets/62210384/d76e0a19-5703-4a38-9197-3a402d3e98a8)
+![image](https://github.com/matinmoradi80/SoftwareEngineering_Lab5/assets/62210384/a6c42b05-e2c0-46ea-99e4-cf3199dd6634)
+
+همانطور که مشاهده میکنید اجرای برنامه مدت نسبتا زیادی طول کشیده است یعنی 1406 میلی ثانیه که دلیل اصلی آن هم تابع ()fib است که مربوط به محاسبه عدد فیبوناچی است. برای بهبود آن میتوان از caching استفاده کرد به این صورت که هردفعه وقتی یک عدد از دنباله فیبوناچی را حساب کردیم، آن را یک HashMap ذخیره کنیم تا بعدا دوباره مجبور نشویم آن را محاسبه کنیم. درادامه کد اصلاح شده و گزارش اجرای برنامه را مشاهده میکنید:
+![image](https://github.com/matinmoradi80/SoftwareEngineering_Lab5/assets/62210384/9469d559-8dac-4891-aa17-c1b9ca8a0d5d)
+![image](https://github.com/matinmoradi80/SoftwareEngineering_Lab5/assets/62210384/130cd2b9-8fce-4103-ab83-3b6f0cb5738a)
+
+طبق آنچه YourKit گزارش کرده است، برنامه در مدت زمان 31 میلی ثانیه با منابع بسیار بسیار کمتر اجرا شده است.
+
 
