@@ -14,9 +14,7 @@
 
 ![image](https://github.com/matinmoradi80/SoftwareEngineering_Lab5/assets/62210384/61430956-4fa0-4eca-b966-18c8252e743b)
 
-\\
-\\
-\\
+<br><br><br>
 
 ## سوال دوم
 
