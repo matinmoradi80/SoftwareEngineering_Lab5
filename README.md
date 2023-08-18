@@ -1,5 +1,5 @@
 # SoftwareEngineering_Lab5
-##سوال اول
+## سوال اول
 در ابتدا برنامه را اجرا میکنیم تا در برنامه‌ی yourkit آن را رصد بکنیم:
 ![image](https://github.com/matinmoradi80/SoftwareEngineering_Lab5/assets/62210384/4f155c6d-625e-46c4-a954-638885562bc3)
 
@@ -16,5 +16,5 @@
 
 
 
-##سوال دوم
+## سوال دوم
 
